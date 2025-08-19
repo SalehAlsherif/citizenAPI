@@ -1,3 +1,0 @@
-GET http://127.0.0.1:8000/citizens/ HTTP/1.1
-Content-Type: application/json
-Authorization: Api-Key VlISnuaG.aB3lXZO1X44RILaRR76wclPpwCgbGjIr
