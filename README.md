@@ -27,14 +27,17 @@ pytest
 - python manage.py migrate        
 
 
-## Creating a admin User:
 
--python manage.py createsuperuser 
 ## Runing:
 
 -python manage.py runserver
 
+## Creating a admin User:
+
+-python manage.py createsuperuser 
+
 -visit http://127.0.0.1:8000/admin/ to create API key
+
 
 🔑 Authentication
 All endpoints require a valid API key passed via the Authorization header:
