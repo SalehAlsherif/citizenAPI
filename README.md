@@ -31,9 +31,11 @@ pytest
 ## Runing:
 
 -python manage.py runserver
--works with all default CRUD operations
+
 -For Examble List GET:
--http://127.0.0.1:8000/citizens/ 
+
+-http://127.0.0.1:8000/citizens/
+
 
 You now have these endpoints:
 
