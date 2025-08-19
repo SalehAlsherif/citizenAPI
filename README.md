@@ -31,6 +31,20 @@ pytest
 ## Runing:
 
 -python manage.py runserver
+-works with all default CRUD operations
+-For Examble List GET:
+-http://127.0.0.1:8000/citizens/ 
+
+You now have these endpoints:
+
+Method	Endpoint	Action
+GET	/citizens/	Read all
+POST	/citizens/	Create new
+GET	/citizens/<id>/	Read one
+PUT	/citizens/<id>/	Update
+DELETE	/citizens/<id>/	Delete
+Use tools like Postman, curl, or Django’s Browsable API to test
+
 
 ## Creating a admin User:
 
