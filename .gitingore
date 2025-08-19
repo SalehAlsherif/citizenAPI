@@ -1,6 +1,7 @@
 # .gitignore
 *.pyc
-__pycache__/
+/citizens/__pycache__/
+/__pycache__/
 db.sqlite3
 /staticfiles/
 /media/
@@ -8,3 +9,5 @@ db.sqlite3
 *.log
 *.sqlite3
 .env/
+/venv/
+/citizens/migrations
